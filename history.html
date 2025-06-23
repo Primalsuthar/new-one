@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Page</title>
+</head>
+<body style="background-color: rgb(239, 184, 115); margin: 0;">
+
+  <div style="position: relative; width: 70%; margin: auto;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/BritishIndianEmpireandEnvirons2.jpg" alt="Quiz Background" style="opacity: 0.3; width: 100%; display: block;">
+
+    <h1 id="question" style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); color: rgb(149, 7, 7);">
+      Loading question . . .
+    </h1>
+
+    <div id="options" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;"></div>
+
+    <p id="result" style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); font-weight: bold;"></p>
+<div style="display: flex;"><P style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; font-size: xx-large;"> YOUR SCORE</P><div id="score" style="position: absolute; top: 73.7%; left: 64%; transform: translate(-50%, -50%); text-align: center; font-size: xx-large;"></div>
+</div>
+    <button onclick="nextQuestion()" style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);">
+      Next
+    </button>
+
+    <a href="next.html" style="text-decoration: none;">
+      <h1 style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); color: rgb(149, 7, 7);">BACK</h1>
+    </a>
+  </div>
+
+  <script src="work.js"></script>
+</body>
+</html>

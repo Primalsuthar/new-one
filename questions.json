@@ -1,0 +1,160 @@
+[
+  {
+    "question": "Who was the first President of the United States?",
+    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+    "answer": "George Washington"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "options": ["1945", "1939", "1941", "1950"],
+    "answer": "1945"
+  },
+  {
+    "question": "Who was the founder of the Mughal Empire in India?",
+    "options": ["Babur", "Akbar", "Humayun", "Aurangzeb"],
+    "answer": "Babur"
+  },
+  {
+    "question": "The Great Wall of China was built to protect against which group?",
+    "options": ["Huns", "Romans", "Mongols", "Persians"],
+    "answer": "Mongols"
+  },
+  {
+    "question": "Which Indian leader is known as the 'Father of the Nation'?",
+    "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Sardar Patel"],
+    "answer": "Mahatma Gandhi"
+  },
+  {
+    "question": "What ancient civilization built the pyramids?",
+    "options": ["Romans", "Greeks", "Egyptians", "Aztecs"],
+    "answer": "Egyptians"
+  },
+  {
+    "question": "In which year did India gain independence from British rule?",
+    "options": ["1945", "1947", "1950", "1930"],
+    "answer": "1947"
+  },
+  {
+    "question": "Who was the famous queen of ancient Egypt?",
+    "options": ["Cleopatra", "Isis", "Nefertiti", "Hatshepsut"],
+    "answer": "Cleopatra"
+  },
+  {
+    "question": "Which war was fought between the North and South regions in the United States?",
+    "options": ["Revolutionary War", "Civil War", "World War I", "Vietnam War"],
+    "answer": "Civil War"
+  },
+  {
+    "question": "Who discovered America in 1492?",
+    "options": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "James Cook"],
+    "answer": "Christopher Columbus"
+  },
+
+  {
+    "question1": "What is the capital of Australia?",
+    "options1": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "answer1": "Canberra"
+  },
+  {
+    "question1": "Who wrote the play 'Romeo and Juliet'?",
+    "options1": ["William Wordsworth", "William Shakespeare", "Charles Dickens", "Jane Austen"],
+    "answer1": "William Shakespeare"
+  },
+  {
+    "question1": "What is the largest planet in our Solar System?",
+    "options1": ["Earth", "Saturn", "Jupiter", "Mars"],
+    "answer1": "Jupiter"
+  },
+  {
+    "question1": "Which country is known as the Land of the Rising Sun?",
+    "options1": ["India", "Japan", "Thailand", "China"],
+    "answer1": "Japan"
+  },
+  {
+    "question1": "How many continents are there in the world?",
+    "options1": ["5", "6", "7", "8"],
+    "answer1": "7"
+  },
+  {
+    "question1": "Which element has the chemical symbol 'O'?",
+    "options1": ["Osmium", "Oxygen", "Gold", "Zinc"],
+    "answer1": "Oxygen"
+  },
+  {
+    "question1": "Who is the author of 'Harry Potter' series?",
+    "options1": ["J.K. Rowling", "Enid Blyton", "Stephen King", "Roald Dahl"],
+    "answer1": "J.K. Rowling"
+  },
+  {
+    "question1": "Which ocean is the largest?",
+    "options1": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer1": "Pacific Ocean"
+  },
+  {
+    "question1": "In which year did World War II end?",
+    "options1": ["1942", "1945", "1948", "1950"],
+    "answer1": "1945"
+  },
+  {
+    "question1": "Which gas do plants absorb from the atmosphere?",
+    "options1": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Helium"],
+    "answer1": "Carbon Dioxide"
+  },
+  {
+    "question2": "What is the value of 7 + 5?",
+    "options2": ["10", "11", "12", "13"],
+    "answer2": "12"
+  },
+  {
+    "question2": "What is 9 × 8?",
+    "options2": ["72", "81", "64", "69"],
+    "answer2": "72"
+  },
+  {
+    "question2": "What is the square root of 49?",
+    "options2": ["6", "7", "8", "9"],
+    "answer2": "7"
+  },
+  {
+    "question2": "What is 15 ÷ 3?",
+    "options2": ["4", "5", "6", "7"],
+    "answer2": "5"
+  },
+  {
+    "question2": "What is the value of 5²?",
+    "options2": ["10", "20", "25", "15"],
+    "answer2": "25"
+  },
+  {
+    "question2": "What is the perimeter of a square with side 6 cm?",
+    "options2": ["12 cm", "18 cm", "24 cm", "30 cm"],
+    "answer2": "24 cm"
+  },
+  {
+    "question2": "What is 100 - 37?",
+    "options2": ["73", "63", "67", "61"],
+    "answer2": "63"
+  },
+  {
+    "question2": "What is 3³ (3 to the power 3)?",
+    "options2": ["6", "9", "27", "12"],
+    "answer2": "27"
+  },
+  {
+    "question2": "What is the next prime number after 7?",
+    "options2": ["9", "10", "11", "13"],
+    "answer2": "11"
+  },
+  {
+    "question2": "What is the result of (10 + 2) × 3?",
+    "options2": ["36", "32", "30", "40"],
+    "answer2": "36"
+  }
+]
+
+
+
+
+
+
+
