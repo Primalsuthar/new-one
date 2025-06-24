@@ -50,7 +50,7 @@ function checkAnswer(option, correct2) {
     loss++;
   }
   document.getElementById("score2").innerHTML = score;
-    document.getElementById("score0.2").innerHTML = score;
+    document.getElementById("score_0_2").innerHTML = score;
    document.getElementById("loss2").innerHTML = loss;
 }
 
