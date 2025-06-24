@@ -1,6 +1,7 @@
 let CurrentQuestion = 0;
 let score = 0;
 let quizData = [];
+let loss = 0;
 
 fetch('questions.json')
   .then(response => response.json())
@@ -43,8 +44,11 @@ function checkAnswer(option, correct1) {
     result.textContent = " Wrong! Correct answer: " + correct1;
     result.style.color = "red";
     result.style.fontSize = "x-large";
+loss++;
   }
   document.getElementById("score1").innerHTML = score;
+ document.getElementById("profit1").innerHTML = score;
+ document.getElementById("loss1").innerHTML = loss;
 }
 
 function nextQuestion() {
