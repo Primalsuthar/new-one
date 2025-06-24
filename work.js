@@ -9,8 +9,9 @@ fetch('questions.json')
     loadQuestion();
   });
 
-function loadQuestion() {  
-document.getElementById('result').textContent = "";
+
+function loadQuestion() {
+     document.getElementById('result').textContent = "";
   let q = quizData[CurrentQuestion];
   document.getElementById('question').textContent = q.question;
 
@@ -18,17 +19,19 @@ document.getElementById('result').textContent = "";
   optionsDiv.innerHTML = "";
 
   q.options.forEach(option => {
-    const btn = document.createElement("button");
-    btn.textContent = option;
-    btn.style.margin = "8px";
-    btn.onclick = () => {
-checkAnswer(option, q.answer);
- setTimeout(() => {
-nextQuestion()}, 1000);
-}
-    optionsDiv.appendChild(btn);
-  });
-}
+  const btn = document.createElement("button");
+  btn.textContent = option;
+  btn.style.margin = "8px";
+  btn.onclick = () => {
+    checkAnswer(option, q.answer);
+    setTimeout(() => {
+      nextQuestion();
+    }, 1000);
+    
+  };
+  optionsDiv.appendChild(btn);
+});
+
 
 function checkAnswer(option, correct) {
   const result = document.getElementById("result");
