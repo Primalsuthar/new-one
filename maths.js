@@ -18,14 +18,19 @@ function loadQuestion2() {
   optionsDiv.innerHTML = "";
 
   q.options2.forEach(option => {
-    const btn = document.createElement("button");
-    btn.textContent = option;
-    btn.style.margin = "8px";
-    btn.onclick = () => checkAnswer(option, q.answer2);
-    optionsDiv.appendChild(btn);
-  });
+  const btn = document.createElement("button");
+  btn.textContent = option;
+  btn.style.margin = "8px";
+  btn.onclick = () => {
+    checkAnswer(option, q.answer2);
+    setTimeout(() => {
+      nextQuestion();
+    }, 1000);
+  };
+  optionsDiv.appendChild(btn);
+});
 
-  document.getElementById('result2').textContent = "";
+   document.getElementById('result2').textContent = "";
 }
 
 function checkAnswer(option, correct2) {
