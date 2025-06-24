@@ -9,9 +9,9 @@ fetch('questions.json')
     loadQuestion();
   });
 
-
 function loadQuestion() {
-     document.getElementById('result').textContent = "";
+  document.getElementById('result').textContent = "";
+
   let q = quizData[CurrentQuestion];
   document.getElementById('question').textContent = q.question;
 
@@ -19,18 +19,18 @@ function loadQuestion() {
   optionsDiv.innerHTML = "";
 
   q.options.forEach(option => {
-  const btn = document.createElement("button");
-  btn.textContent = option;
-  btn.style.margin = "8px";
-  btn.onclick = () => {
-    checkAnswer(option, q.answer);
-    setTimeout(() => {
-      nextQuestion();
-    }, 1000);
-    
-  };
-  optionsDiv.appendChild(btn);
-});
+    const btn = document.createElement("button");
+    btn.textContent = option;
+    btn.style.margin = "8px";
+    btn.onclick = () => {
+      checkAnswer(option, q.answer);
+      setTimeout(() => {
+        nextQuestion();
+      }, 1000);
+    };
+    optionsDiv.appendChild(btn);
+  });
+}
 
 
 function checkAnswer(option, correct) {
@@ -43,19 +43,19 @@ function checkAnswer(option, correct) {
   } else {
     result.textContent = "Wrong! Correct answer: " + correct;
     result.style.color = "red";
-     result.style.fontSize = "x-large";
+    result.style.fontSize = "x-large";
   }
-     document.getElementById("score").innerHTML = score;
+  document.getElementById("score").innerHTML = score;
 }
+
 
 function nextQuestion() {
   CurrentQuestion++;
   if (CurrentQuestion < quizData.length) {
     loadQuestion();
   } else {
-    document.getElementById("question").textContent = " Quiz Completed!";
+    document.getElementById("question").textContent = "Quiz Completed!";
     document.getElementById("options").innerHTML = "";
     document.getElementById("result").textContent = "";
-   
   }
 }
