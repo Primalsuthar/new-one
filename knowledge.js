@@ -11,6 +11,7 @@ fetch('questions.json')
   });
 
 function loadQuestion1() {
+  document.getElementById('result1').textContent = "";
   let q = quizData[CurrentQuestion];
   document.getElementById('question1').textContent = q.question1;
 
@@ -29,7 +30,6 @@ nextQuestion();},1000);
     optionsDiv.appendChild(btn);
   });
 
-  document.getElementById('result1').textContent = "";
 }
 
 function checkAnswer(option, correct1) {
