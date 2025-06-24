@@ -20,7 +20,11 @@ function loadQuestion() {
     const btn = document.createElement("button");
     btn.textContent = option;
     btn.style.margin = "8px";
-    btn.onclick = () => checkAnswer(option, q.answer);
+    btn.onclick = () => {
+checkAnswer(option, q.answer);
+ setTimeout(() => {
+nextQuestion()}, 1000);
+}
     optionsDiv.appendChild(btn);
   });
 }
@@ -45,7 +49,7 @@ function nextQuestion() {
   if (CurrentQuestion < quizData.length) {
     loadQuestion();
   } else {
-    document.getElementById("question").textContent = "🎉 Quiz Completed!";
+    document.getElementById("question").textContent = " Quiz Completed!";
     document.getElementById("options").innerHTML = "";
     document.getElementById("result").textContent = "";
    
