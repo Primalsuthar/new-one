@@ -6,7 +6,6 @@ let loss = 0;
 fetch('questions.json')
   .then(response => response.json())
   .then(data => {
-    // Filter only general knowledge questions
     quizData = data.filter(q => q.question2 && q.options2 && q.answer2);
     loadQuestion2();
   });
