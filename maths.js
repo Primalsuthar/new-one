@@ -1,4 +1,3 @@
-
 let CurrentQuestion = 0;
 let score = 0;
 let quizData = [];
