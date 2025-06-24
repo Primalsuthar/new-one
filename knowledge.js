@@ -21,7 +21,11 @@ function loadQuestion1() {
     const btn = document.createElement("button");
     btn.textContent = option;
     btn.style.margin = "8px";
-    btn.onclick = () => checkAnswer(option, q.answer1);
+    btn.onclick = () => {
+checkAnswer(option, q.answer1);
+setTimeout(() => {
+nextQuestion();},1000);
+}
     optionsDiv.appendChild(btn);
   });
 
