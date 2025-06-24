@@ -9,7 +9,8 @@ fetch('questions.json')
     loadQuestion();
   });
 
-function loadQuestion() {
+function loadQuestion() {  
+document.getElementById('result').textContent = "";
   let q = quizData[CurrentQuestion];
   document.getElementById('question').textContent = q.question;
 
